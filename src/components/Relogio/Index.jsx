@@ -18,7 +18,7 @@ const Relogio = () => {
             if (relogio) {
                 relogio.textContent = `${horas}:${minutos}:${segundos}`;
             }
-            if (horas === '23' && minutos === '42' && segundos === '35') {
+            if (horas === '12' && minutos === '00' && segundos === '00') {
                 audio.volume = 1; 
                 audio.play();
                 setImgShow(true);
